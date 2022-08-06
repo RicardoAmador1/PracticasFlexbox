@@ -1,0 +1,153 @@
+body{
+    margin: 0px;
+}
+
+.ContainerHeader{
+    width:100%;
+    height:100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    background: rgb(228, 193, 193);
+}
+
+.ContainerNav{
+    height: 100px;
+    width: 600px;
+    
+}
+
+.ContainerNav > ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.ContainerNav > ul > li > a{
+    color: aliceblue;
+    text-decoration: none;
+    color: black;
+}
+
+.ContainerSignIn{
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    height: 50px;
+    width: 200px;
+}
+
+.ContainerSignIn a{
+    color: greenyellow;
+    text-decoration: none;
+    
+}
+
+.ContainerSignIn button{
+    color: white;
+    background-color: green;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+
+}
+
+.features{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-color: green;
+    width: 100%;
+    height: 600px;
+}
+
+.features article{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background: white;
+}
+
+.ContainerText{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 1000px){
+    body{
+        background-color: rgb(185, 32, 127);
+    }
+    .ContainerNav{
+        display: none;
+    }
+    
+
+
+}
+
+@media (max-width: 775px){
+    body{
+        background-color: rgb(64, 184, 128);
+    }
+
+}
+
+@media (max-width: 575px){
+    body{
+        background-color: yellow;
+    }
+
+}
+
+@media (max-width: 275px){
+    body{
+        background-color: rgb(68, 0, 255);
+    }
+
+}
+
+/* breakpoint */
+
+/** dispositivos ipads grandes en vista viewport (vertical) */
+
+@media (max-width: 1000px) {
+    body {
+      background-color: rgb(255, 0, 111);
+    }
+  
+  
+  
+  }
+  
+  /** dispositivos ipads medianos en vista viewport (vertical) */
+  
+  @media (max-width: 875px) {
+    body {
+      background-color: rgb(40, 40, 36);
+    }
+  
+  }
+  
+  
+  
+  /** dispositivos ipads minis en vista viewport (vertical) */
+  
+  @media (max-width: 575px) {
+    body {
+      background-color: rgb(0, 255, 128);
+    }
+  
+  
+  .ContainerNav{
+   display: none;
+  }
+  
+  
+  }
+  
+
+
+
