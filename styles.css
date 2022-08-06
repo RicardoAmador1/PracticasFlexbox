@@ -1,0 +1,92 @@
+/* .Conatainer-Padre{
+    width:600px ;
+    height:500px ;
+    background-color:palevioletred;
+ a todos los lados le aplicara 10px 
+    margin:10%;
+    top  right bottom left 
+    margin: 100px 10px 20px 10%;
+    margin-top: 100px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+ 
+    padding:10px;
+        top  right bottom left 
+    padding:100px 10px 20px 10px ;
+ 
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+
+
+} */
+
+
+.Container-Padre{
+    margin-left: 10%;
+    margin-top: 50px;
+    width: 350px;
+    height: auto;
+    display: inline-block;
+    padding: 300px;
+    background-color: rgb(29, 99, 139);
+    position: fixed;
+
+}
+
+#Box1{
+    width: 200px;
+    height: 200px;
+    background: red;
+    position: fixed;
+    left: 300px;
+    top: 100px;
+    padding: 20px;
+}
+
+#Box2{
+    width: 200px;
+    height: 200px;
+    background: orchid;
+    position: fixed;
+    left: 300px;
+    top: 400px;
+    padding: 20px;
+}
+
+#Box3{
+    width: 200px;
+    height: 200px;
+    background: rosybrown;
+    position: fixed;
+    left: 800px;
+    top: 400px;
+    padding: 20px;
+}
+
+#Box4{
+    width: 200px;
+    height: 200px;
+    background: gold;
+    position: fixed;
+    left: 800px;
+    top: 100px;
+    padding: 20px;
+}
+
+img{
+    margin-top: 2%;
+    margin-left: 2%;
+    max-width: 100%;
+    max-height: 100%;
+    height: inherit;
+    width: inherit;
+    object-fit: cover !important;
+}
+
+
+
+
+
