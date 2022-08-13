@@ -1,6 +1,6 @@
-body{
-    margin: 0px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+
 
 .ContainerHeader{
     width:100%;
@@ -10,6 +10,17 @@ body{
     justify-content: space-between;
     padding: 10px;
     background: rgb(228, 193, 193);
+}
+
+.ContainerHeader .logo img{
+    height: 70px;
+    width: auto;
+}
+
+.ContainerHeader .logo img:hover{
+    transform: scale(1.2);
+    width: auto;
+    transition: all 0.3s;
 }
 
 .ContainerNav{
@@ -28,6 +39,10 @@ body{
     color: aliceblue;
     text-decoration: none;
     color: black;
+    height: 40px;
+    width: 760px;;
+    font: 16px;
+    padding: 8px 0px;
 }
 
 .ContainerSignIn{
@@ -39,9 +54,21 @@ body{
 }
 
 .ContainerSignIn a{
-    color: greenyellow;
+    color: #67b54b;
     text-decoration: none;
+    font: 14px;
+    margin: 8px 10px;
     
+}
+
+.ContainerText{
+height: 120px;
+width: 100px;
+}
+
+.ContainerText img{
+    height: 20px;
+    width: 12px;
 }
 
 .ContainerSignIn button{
@@ -55,28 +82,115 @@ body{
 
 }
 
+
+.promo{    
+    display: flex;
+     width: 70%;
+    margin: 100px 180px;
+    align-items: center;
+    
+  
+  }
+
+.promo > .Container-video {
+    display: flex;
+    align-items: center;
+  }
+
+.promo > .Container-publish {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+
+  
+.promo > .Container-publish > h3{
+    font-family: "Alegreya", serif;
+    font-size: 30px;
+    line-height: 28px;
+    color: #025157;
+    height: 100px;
+  }
+
+.promo > .Container-publish > p{
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    height: 136px;
+  
+  }
+
+
+
+
+
+
 .features{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    background-color: green;
-    width: 100%;
-    height: 600px;
+    background: #025157;
+    padding: 5% 10%;
+    grid-template-rows: repeat(2, 1fr)
 }
 
 .features article{
     display: flex;
-    width: 300px;
-    height: 300px;
+    margin-bottom:30px;
+    margin-left:15px;
+    margin-right:15px;
     background: white;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    align-items: center;
+
+
+    
 }
 
-.ContainerText{
-    display: flex;
-    flex-direction: column;
+.features article .feature-content{
+    padding: 30px 20px 40px 40px;
+
 }
 
-@media (max-width: 1000px){
+
+.features article .feature-content h3{
+    font-size: 24px;
+    color: #343434;
+    font-weight: 400;
+}
+
+.features article .feature-content p{
+    font-size: 16px;
+    color: #7e7e7e;
+    font-weight: 400;
+
+}
+
+.features article .feature-content a{
+    font-size: 16px;
+    color: #67b54b;
+    font-weight: 400;
+    text-decoration: none; 
+}
+
+.features article .feature-img{
+    background-color: red;
+    width: 40%;
+    position: relative;
+    height: 15%;
+    right: 15px;
+    top: -50px;
+}
+
+
+
+
+
+
+
+
+ @media (max-width: 1000px){
     body{
         background-color: rgb(185, 32, 127);
     }
@@ -84,8 +198,6 @@ body{
         display: none;
     }
     
-
-
 }
 
 @media (max-width: 775px){
@@ -119,9 +231,9 @@ body{
     }
   
   
-  
+    
   }
-  
+
   /** dispositivos ipads medianos en vista viewport (vertical) */
   
   @media (max-width: 875px) {
